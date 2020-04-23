@@ -29,6 +29,7 @@
 	max-width: 100%;
 	min-width: 100%;
 	min-height: 100px;
+	z-index: 1;
 }
 
 .name-input {
@@ -39,4 +40,35 @@
 	padding: 5px 20px;
 	border: none;
 	margin-top: 20px;
+}
+
+.sent {
+	background-color: green;
+	z-index: -1;
+	position: absolute;
+	transform: translateY(40px);
+	padding: 3px;
+	color: white;
+}
+
+.isSending {
+	pointer-events: none;
+}
+
+.sent-slide-enter {
+	transform: translateY(40px);
+}
+.sent-slide-enter-active {
+	transform: translateY(65px);
+	transition: transform 1s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.sent-slide-exit {
+	transform: translateY(65px);
+}
+
+.sent-slide-exit-active {
+	transform: translateY(40px);
+	transition: transform 1s cubic-bezier(0.83, 0, 0.17, 1);
+	/* transition-delay: 2s; */
 }
