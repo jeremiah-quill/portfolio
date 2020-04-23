@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.98dfedfd.chunk.css",
+    "main.js": "/portfolio/static/js/main.29f7dbf0.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.29f7dbf0.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.d597d31e.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.d597d31e.js.map",
+    "static/css/2.ed315883.chunk.css": "/portfolio/static/css/2.ed315883.chunk.css",
+    "static/js/2.84dad0da.chunk.js": "/portfolio/static/js/2.84dad0da.chunk.js",
+    "static/js/2.84dad0da.chunk.js.map": "/portfolio/static/js/2.84dad0da.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.b6c2143cdb9113d2899e75da347f07c8.js": "/portfolio/precache-manifest.b6c2143cdb9113d2899e75da347f07c8.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.ed315883.chunk.css.map": "/portfolio/static/css/2.ed315883.chunk.css.map",
+    "static/css/main.98dfedfd.chunk.css.map": "/portfolio/static/css/main.98dfedfd.chunk.css.map",
+    "static/js/2.84dad0da.chunk.js.LICENSE.txt": "/portfolio/static/js/2.84dad0da.chunk.js.LICENSE.txt",
+    "static/media/blackjack.png": "/portfolio/static/media/blackjack.527c81de.png",
+    "static/media/codepen-icon.svg": "/portfolio/static/media/codepen-icon.0673fce0.svg",
+    "static/media/css-icon.svg": "/portfolio/static/media/css-icon.889449e3.svg",
+    "static/media/all.css": "/portfolio/static/media/fa-solid-900.ec763292.svg",
+    "static/media/github-icon.svg": "/portfolio/static/media/github-icon.50d509e8.svg",
+    "static/media/jeopardy-training.png": "/portfolio/static/media/jeopardy-training.22675d87.png",
+    "static/media/linkedin-icon.svg": "/portfolio/static/media/linkedin-icon.d849bc25.svg",
+    "static/media/mongodb-icon.svg": "/portfolio/static/media/mongodb-icon.cfee114b.svg",
+    "static/media/nodejs-icon.svg": "/portfolio/static/media/nodejs-icon.705b987e.svg",
+    "static/media/portfolio.png": "/portfolio/static/media/portfolio.4a49841e.png",
+    "static/media/react-icon.svg": "/portfolio/static/media/react-icon.4c5a5345.svg",
+    "static/media/recipe-rundown.png": "/portfolio/static/media/recipe-rundown.2117ce67.png",
+    "static/media/spotify-playlists.png": "/portfolio/static/media/spotify-playlists.9c48de48.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d597d31e.js",
+    "static/css/2.ed315883.chunk.css",
+    "static/js/2.84dad0da.chunk.js",
+    "static/css/main.98dfedfd.chunk.css",
+    "static/js/main.29f7dbf0.chunk.js"
+  ]
+}
