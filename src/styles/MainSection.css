@@ -44,7 +44,6 @@
 	overflow-y: scroll;
 	height: 100%;
 	width: 100%;
-	/* next 3 are issue for projects starting off screen */
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -56,7 +55,6 @@
 }
 .section-enter-done {
 	opacity: 1;
-	/* transform: translateX(0); */
 	transition: opacity 800ms ease;
 	transition-delay: .6s;
 }
@@ -66,5 +64,4 @@
 .section-exit-done {
 	opacity: 0;
 	transition: opacity 800ms ease;
-	/* transition-delay: 2s; */
 }
