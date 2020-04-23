@@ -1,0 +1,42 @@
+.Contact {
+	border-radius: 10px;
+	padding: 25px;
+}
+
+.Contact > h5 {
+	text-align: center;
+}
+
+.contact-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	width: 400px;
+}
+
+.contact-form > input,
+.contact-form > textarea {
+	width: 100%;
+	padding: 5px;
+	border: none;
+	margin: 2px;
+}
+
+.contact-form > textarea {
+	max-height: 100px;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 100px;
+}
+
+.name-input {
+	width: 200px;
+}
+
+.contact-submit-button {
+	padding: 5px 20px;
+	border: none;
+	margin-top: 20px;
+}

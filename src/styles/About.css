@@ -1,0 +1,17 @@
+.About {
+	border-radius: 10px;
+	padding: 25px;
+}
+
+.About > div {
+	text-align: center;
+}
+
+.name-span {
+	font-weight: bold;
+	color: white;
+}
+
+.highlight {
+	background-color: orange;
+}

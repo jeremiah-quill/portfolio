@@ -1,0 +1,119 @@
+.Portfolio {
+	position: relative;
+	flex-grow: 1;
+	flex-shrink: 0;
+	flex-basis: auto;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 100%;
+	background-color: gray !important;
+}
+
+/* made by JQ */
+.Linkbar {
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	z-index: 50;
+	font-weight: bold;
+}
+.Linkbar-link {
+	margin: 0px 10px;
+}
+.Linkbar-link:hover img {
+	transform: scale(1.2);
+	transition: transform .5s ease-in-out;
+}
+
+/* .main-title {
+	display: none;
+} */
+
+/* media query for larger screen */
+@media only screen and (min-width: 855px) {
+	.Portfolio {
+		flex-direction: row;
+	}
+	.MainSection {
+		width: 25%;
+		height: 100% !important;
+	}
+	.MainSection.collapse {
+		width: 10%;
+	}
+	.MainSection.focus {
+		width: 70%;
+		-webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 1);
+		-moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 1);
+		box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 1);
+		z-index: 10;
+	}
+
+	.content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 100%;
+		width: 100%;
+	}
+
+	.project-list-container {
+		/* padding-top: 25%; */
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		/* grid-gap: 20px; */
+	}
+
+	.section-title {
+		font-size: 2rem;
+	}
+
+	.section-title.collapse {
+		font-size: 1rem;
+	}
+
+	.project-card {
+		display: grid;
+		grid-template-columns: 500px 150px;
+		grid-template-rows: 300px 25px;
+		padding: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .5);
+		-moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .5);
+		box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .5);
+	}
+
+	.main-title {
+		display: block;
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		z-index: 1000;
+		text-transform: uppercase;
+		font-weight: bold;
+		text-decoration: underline;
+		font-size: 4rem;
+	}
+
+	.slide-enter {
+		transform: translateY(-100px);
+	}
+	.slide-enter-active {
+		transform: translateY(0);
+		transition: transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+	}
+	/* .player__icon--enter-done { transform: translateX(0); }
+ */
+	.slide-exit {
+		transform: translateY(0);
+	}
+	.slide-exit-active {
+		transform: translateY(-100px);
+		transition: transform 0.6s cubic-bezier(0.83, 0, 0.17, 1);
+	}
+}
