@@ -17,21 +17,16 @@ const ProjectList = ({ projects }) => {
 
 	return (
 		<div className="project-list-container">
-			{/* <button className="carousel-button" onClick={handlePrevious}>
-				previous
-			</button> */}
-			<i onClick={handleNext} class="fa-2x fas fa-arrow-left" onClick={handlePrevious} />
-
 			<SwitchTransition>
 				<CSSTransition key={currentProject} classNames={'fade'} timeout={600}>
 					<Project project={projects[currentProject]} />
 				</CSSTransition>
 			</SwitchTransition>
+			<div className="arrow-container cc">
+				<i className="fa-2x fas fa-arrow-left" onClick={handlePrevious} />
 
-			{/* <button className="carousel-button" onClick={handleNext}>
-				next
-			</button> */}
-			<i onClick={handleNext} class="fa-2x fas fa-arrow-right" />
+				<i onClick={handleNext} className="fa-2x fas fa-arrow-right" />
+			</div>
 		</div>
 	);
 };

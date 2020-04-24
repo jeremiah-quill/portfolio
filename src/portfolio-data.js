@@ -12,6 +12,15 @@ import Experience from './components/Experience';
 import ProjectList from './components/ProjectList';
 import Contact from './components/Contact';
 
+import mongodbIcon from './images/mongodb-icon.svg';
+import reactIcon from './images/react-icon.svg';
+import cssIcon from './images/css-icon.svg';
+import nodejsIcon from './images/nodejs-icon.svg';
+import html5Icon from './images/html5-icon.svg';
+import javascriptIcon from './images/javascript-icon.svg';
+import bootstrapIcon from './images/bootstrap-icon.svg';
+import materialuiIcon from './images/materialui-icon.svg';
+
 const links = [
 	{ name: 'LinkedIn', image: linkedinIcon, url: 'https://www.linkedin.com/in/jeremiah-quill-281b06122' },
 	{ name: 'Github', image: githubIcon, url: 'https://github.com/jeremiah-quill' },
@@ -23,28 +32,41 @@ const projects = [
 		image: spotifyPlaylists,
 		liveURL: 'https://jeremiah-quill.github.io/spotify-playlists/',
 		codeURL: 'https://github.com/jeremiah-quill/spotify-playlists',
-		description: 'A spotify web app for curating random playlists on the fly using the Spotify API.'
+		description: 'A spotify web app for curating random playlists on the fly using the Spotify API.',
+		icons: [
+			{ image: javascriptIcon, alt: 'javascript' },
+			{ image: reactIcon, alt: 'reactjs' },
+			{ image: materialuiIcon, alt: 'material-ui' }
+		]
 	},
 	{
 		title: 'Recipe Rundown',
 		image: recipeRundown,
 		liveURL: 'http://www.reciperundown.com',
 		codeURL: 'https://github.com/jeremiah-quill/recipe-rundown',
-		description: 'A full-stack CRUD web app for managing and discovering recipes.'
+		description: 'A full-stack CRUD web app for managing and discovering recipes.',
+		icons: [
+			{ image: javascriptIcon, alt: 'javascript' },
+			{ image: mongodbIcon, alt: 'mongodb' },
+			{ image: nodejsIcon, alt: 'nodejs' },
+			{ image: bootstrapIcon, alt: 'bootstrap' }
+		]
 	},
 	{
 		title: 'Blackjack',
 		image: blackjack,
 		liveURL: 'https://jeremiah-quill.github.io/Vanilla-JS-Blackjack/',
 		codeURL: 'https://github.com/jeremiah-quill/Vanilla-JS-Blackjack',
-		description: 'Vanilla javascript blackjack game.'
+		description: 'Vanilla javascript blackjack game.',
+		icons: [ { image: javascriptIcon, alt: 'javascript' } ]
 	},
 	{
 		title: 'Jeopardy',
 		image: jeopardy,
 		liveURL: 'http://www.jeopardytraining.xyz/?from=@',
 		codeURL: 'https://github.com/jeremiah-quill/jeopardy',
-		description: 'Vanilla javascript jeopardy training which makes use of a free Jeopardy API.'
+		description: 'Vanilla javascript jeopardy training which makes use of a free Jeopardy API.',
+		icons: [ { image: javascriptIcon, alt: 'javascript' } ]
 	},
 	{
 		title: 'Portfolio',
@@ -52,7 +74,8 @@ const projects = [
 		liveURL: '#',
 		codeURL: '#',
 		description:
-			'A responsive personal web development portfolio made with create-react-app.  My first experience with react-transitions-group library.'
+			'A responsive personal web development portfolio made with create-react-app.  My first experience with react-transitions-group library.',
+		icons: [ { image: javascriptIcon, alt: 'javascript' }, { image: reactIcon, alt: 'reactjs' } ]
 	}
 ];
 const sectionsData = [

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import useInputState from '../hooks/useInputState';
-import { CSSTransition, SwitchTransition } from 'react-transition-group';
+import { CSSTransition } from 'react-transition-group';
 import '../styles/Contact.css';
 
 const Contact = () => {

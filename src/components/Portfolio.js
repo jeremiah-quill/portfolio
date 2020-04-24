@@ -2,7 +2,7 @@ import React from 'react';
 import MainSection from './MainSection';
 import Linkbar from './Linkbar';
 import { useState } from 'react';
-import { projects, links, sectionsData } from '../portfolio-data';
+import { links, sectionsData } from '../portfolio-data';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import '../styles/Portfolio.css';
 
