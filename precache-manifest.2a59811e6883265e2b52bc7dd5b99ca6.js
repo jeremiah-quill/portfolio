@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a04ea3d28d46aa32b8181764f6a83ed2",
+    "revision": "3fa375880a7c79098cf21d07ec00f289",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "66b84d3368592f9bb756",
+    "revision": "2a60e95da6bdb7cd2c0d",
     "url": "/portfolio/static/css/2.ed315883.chunk.css"
   },
   {
-    "revision": "b399d784dedfb9cf704c",
-    "url": "/portfolio/static/css/main.59aac54e.chunk.css"
+    "revision": "eb7743a1d8a48b0cffa9",
+    "url": "/portfolio/static/css/main.ce16b27f.chunk.css"
   },
   {
-    "revision": "66b84d3368592f9bb756",
-    "url": "/portfolio/static/js/2.69fa9b24.chunk.js"
+    "revision": "2a60e95da6bdb7cd2c0d",
+    "url": "/portfolio/static/js/2.558d2b24.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/portfolio/static/js/2.69fa9b24.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.558d2b24.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b399d784dedfb9cf704c",
-    "url": "/portfolio/static/js/main.7d207b4b.chunk.js"
+    "revision": "eb7743a1d8a48b0cffa9",
+    "url": "/portfolio/static/js/main.0d3c9171.chunk.js"
   },
   {
     "revision": "6c1d3ad26a766dc494c1",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "527c81de89a1938ae006e3101056ea68",
     "url": "/portfolio/static/media/blackjack.527c81de.png"
+  },
+  {
+    "revision": "3bc63451506bf46937b44a45c6bcd4b0",
+    "url": "/portfolio/static/media/bootstrap-icon.3bc63451.svg"
   },
   {
     "revision": "0673fce072a3134c098d9d253c0976d0",
@@ -104,12 +108,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/github-icon.50d509e8.svg"
   },
   {
+    "revision": "54de15268b387010a4116fa31b58c284",
+    "url": "/portfolio/static/media/html5-icon.54de1526.svg"
+  },
+  {
+    "revision": "f94998255533b51a6b9aa929a88b01f5",
+    "url": "/portfolio/static/media/javascript-icon.f9499825.svg"
+  },
+  {
     "revision": "22675d875b974395162d0bf70d204b23",
     "url": "/portfolio/static/media/jeopardy-training.22675d87.png"
   },
   {
     "revision": "d849bc2557228a905cb46a21f1819d90",
     "url": "/portfolio/static/media/linkedin-icon.d849bc25.svg"
+  },
+  {
+    "revision": "c88ce560b100ddcf5dd6ac74c2fa929e",
+    "url": "/portfolio/static/media/materialui-icon.c88ce560.svg"
   },
   {
     "revision": "cfee114b0b3de28827b98bee2ac0d6f0",
