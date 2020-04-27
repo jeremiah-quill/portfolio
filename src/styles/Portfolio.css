@@ -21,6 +21,24 @@
 	z-index: 50;
 	font-weight: bold;
 }
+
+.DesignedBy {
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 5px;
+	z-index: 50;
+	/* font-weight: bold; */
+	font-size: .6rem;
+}
+
+.DesignedBy a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
 .Linkbar-link {
 	margin: 0px 5px;
 }

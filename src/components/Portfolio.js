@@ -1,13 +1,19 @@
 import React from 'react';
 import MainSection from './MainSection';
 import Linkbar from './Linkbar';
+import DesignedBy from './DesignedBy';
 import { useState } from 'react';
-import { links, sectionsData } from '../portfolio-data';
+import { links, projects, sectionsData } from '../portfolio-data';
+// import About from './About';
+// import Experience from './Experience';
+// import ProjectList from './ProjectList';
+// import Contact from './Contact';
 import { CSSTransition, SwitchTransition } from 'react-transition-group';
 import '../styles/Portfolio.css';
 
 const Portfolio = () => {
 	const [ isFocused, setIsFocused ] = useState({});
+
 	const [ sections, setSections ] = useState(sectionsData);
 
 	const grow = (id) => {
@@ -42,9 +48,35 @@ const Portfolio = () => {
 					backgroundColor={section.backgroundColor}
 				/>
 			))}
+			{<DesignedBy />}
+
 			{<Linkbar links={links} />}
 		</div>
 	);
 };
 
 export default Portfolio;
+
+// 	<Switch>
+// 	<Route exact path="/" render={(routeProps) => <PaletteList {...routeProps} palettes={seedColors} />} />
+// 	{sections.map(section => (
+// 		<Route 		exact
+// 		path="/:title"
+// 		render={(routeProps) => <Palette palette={generatePalette(this.findPalette(routeProps.match.params.id))}/>
+// 	))}
+// 	<Route
+// 		exact
+// 		path="/:title"
+// 		render={(routeProps) => <Palette palette={generatePalette(this.findPalette(routeProps.match.params.id))} />}
+// 	/>
+// 	<Route
+// 		exact
+// 		path="/palette/:paletteId/:colorId"
+// 		render={(routeProps) => (
+// 			<SingleColorPalette
+// 				colorId={routeProps.match.params.colorId}
+// 				palette={generatePalette(this.findPalette(routeProps.match.params.paletteId))}
+// 			/>
+// 		)}
+// 	/>
+// </Switch>;

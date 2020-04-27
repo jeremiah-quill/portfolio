@@ -2,6 +2,10 @@ import React from 'react';
 import '../styles/About.css';
 
 const About = () => {
+	const handleClick = () => {
+		// grow(4);
+		console.log('clicked');
+	};
 	return (
 		<div className="About">
 			<div className="about-intro">
@@ -9,8 +13,9 @@ const About = () => {
 			</div>
 			<br />
 			<div>
-				I have a passion for learning and creating. I want to build useful web apps that help people get things
-				done.
+				I like to build web apps. I focus on clean code, simple design, and a clear and intiutive user
+				experience. Let's build something together!
+				{/* <button onClick={handleClick}>Contact me</button> */}
 			</div>
 		</div>
 	);

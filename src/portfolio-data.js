@@ -78,6 +78,7 @@ const projects = [
 		icons: [ { image: javascriptIcon, alt: 'javascript' }, { image: reactIcon, alt: 'reactjs' } ]
 	}
 ];
+
 const sectionsData = [
 	{
 		collapsed: false,
