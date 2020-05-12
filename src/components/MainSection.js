@@ -1,11 +1,13 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { FocusContext } from '../contexts/FocusContext';
 import { CSSTransition } from 'react-transition-group';
 import '../styles/MainSection.css';
 
 const MainSection = ({ backgroundColor, title, content, grow, collapsed, focused, id }) => {
+	const { changeFocus } = useContext(FocusContext);
 	return (
 		<div
-			onClick={() => grow(id)}
+			onClick={() => changeFocus(title)}
 			style={{ backgroundColor: `${backgroundColor}` }}
 			className={`MainSection ${collapsed && 'collapse'} ${focused && 'focus'} `}
 		>

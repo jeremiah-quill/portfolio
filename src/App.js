@@ -1,11 +1,14 @@
 import React from 'react';
 import Portfolio from './components/Portfolio';
+import { FocusProvider } from './contexts/FocusContext';
 import './App.css';
 
 function App() {
 	return (
 		<div className="App">
-			<Portfolio />
+			<FocusProvider>
+				<Portfolio />
+			</FocusProvider>
 		</div>
 	);
 }

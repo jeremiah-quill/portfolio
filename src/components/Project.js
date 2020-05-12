@@ -17,8 +17,8 @@ const Project = ({ project }) => {
 					</a>
 				</div>
 				<div className="project-tech-icons">
-					{project.icons.map((icon) => (
-						<img style={{ width: '22px', margin: '5px' }} src={icon.image} alt={icon.alt} />
+					{project.icons.map((icon, i) => (
+						<img key={i} style={{ width: '22px', margin: '5px' }} src={icon.image} alt={icon.alt} />
 					))}
 				</div>
 			</div>
